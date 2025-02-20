@@ -25,7 +25,6 @@ public:
     void setGPA(float g) { gpa = g; }
 };
 
-// Класс Точка
 class Point {
 private:
     double x;
@@ -87,7 +86,6 @@ public:
         return denominator; 
     }
 
-    // Сеттеры
     void setNumerator(int num) { 
         numerator = num; 
     }
